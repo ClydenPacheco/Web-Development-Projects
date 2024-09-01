@@ -84,7 +84,7 @@ body{
     }
 }
 .backgroundcover{
-    background: #0000009f;
+    background: #00000051;
     min-height: 100vh;
     width: 100%;
     position: absolute;
@@ -94,7 +94,7 @@ body{
     background: #101611;
     width: 100%;
     max-width: 500px;
-    margin: 220px auto 20px;
+    margin: 200px auto 20px;
     padding: 30px 60px 70px;
     border-radius: 20px;
     border: 2px solid #323633;
@@ -182,7 +182,7 @@ ul li::before{
     height: 25px;
     width: 25px;
     border-radius: 50%;
-    background-image: url(unchecked2.png);
+    background-image: url("Assets/unchecked2.png");
     background-size: cover;
     background-position: center;
     top: 12px;
@@ -193,7 +193,7 @@ ul li.checked{
     text-decoration: line-through;
 }
 ul li.checked::before{
-    background-image: url(checked2.png);
+    background-image: url("Assets/checked2.png");
 }
 ul li span{
     position: absolute;

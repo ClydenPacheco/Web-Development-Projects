@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infix Movies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="top-bar">
+            <h1>Infix Movies</h1>
+            <div id="search-container">
+                <input type="text" id="search-bar" placeholder="Search for a movie...">
+                <button id="search-button">Search</button>
+            </div>
+            <div id="sort-container">
+                <select id="sort-criteria">
+                    <option value="name">Name</option>
+                    <option value="year">Year</option>
+                </select>
+                <select id="sort-order">
+                    <option value="asc">Ascending</option>
+                    <option value="desc">Descending</option>
+                </select>
+            </div>
+        </div>
+        <div id="movie-container"></div>
+    </div>
+
+    <iframe id="iframe-container" src="data:text/html,<html><body><h2>Movie Description</h2></body></html>"></iframe>
+
+    <script src="script.js"></script>
+</body>
+</html>
